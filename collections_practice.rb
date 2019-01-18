@@ -12,7 +12,7 @@ end
 
 def swap_elements(array)
   def swap_elements_from_to(index, destination_index)
-      x[index], x[destination_index] = x[destination_index], x[index]
+      self[index], self[destination_index] = self[destination_index], self[index]
   end
   array.swap_elements_from_to(1,2) 
   array
