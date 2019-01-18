@@ -14,7 +14,7 @@ def swap_elements(array)
   def swap_elements_from_to(x, y)
       self[x], self[y] = self[y], self[x]
   end
-  array.swap_elements_from_to(2,3) 
+  array.swap_elements_from_to(1,2) 
 end
 
 def reverse_array(array)
